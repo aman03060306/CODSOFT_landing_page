@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    max-width: 80vw;  /*also this for bringing things like the whole body to the center*/
+    font-family: "Ubuntu", sans-serif;  
+}
+.navbar
+{
+    display: flex;
+    height: 67px;
+    
+    
+}
+.navbar li
+{
+    list-style: none; /* Remove default list styles */
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Adjust spacing between list items */
+    font-size: 18px; /* Set the font size for list items */
+    color: #d2b93c; /* Set the text color for list items */
+}
+.navbar a {
+    text-decoration: none; /* Remove underlines from anchor links */
+    color: #f7e738; /* Set the text color for anchor links */
+}
+.navbar li.active {
+    color: rgb(206, 176, 120); /* Set a different color for the active link */
+    font-weight: bold; /* Optionally make the active link bold */
+}
+    
+
+.topleft
+{
+    width:50%;
+    
+
+}
+.topright
+{
+    width: 50%;
+    
+}
+.section1
+{
+    max-height: 100vh;
+    
+    
+}
+.section1 h1{
+    font-size: 2rem;
+    color: rgb(182, 141, 65);
+
+}
+.logo{
+    font-size: 1.6rem;
+
+}
+.bblogo
+{
+    height: 89px;
+    width: 95px;
+}
+.topright .bookimg
+{
+    width: 777px;
+}
+.section2 h1
+{
+    font-size: 2.5rem;
+
+}
+.section2
+{
+    padding-left: 100px;
+    padding-right: 63px;
+
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(206, 176, 120);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.highlighted
+{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.box ul
+{
+    list-style-type: none;
+
+}
+.box ul li
+{
+    margin: 12px 2px;
+}
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+    
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 70%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+.bar-4 {
+    width: 25%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+.bar-3 {
+    width: 2%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+.bar-2 {
+    width: 2%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+.bar-1 {
+    width: 1%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+.section3
+{
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: bolder;
+   
+}
+footer
+{
+    padding: 23px;
+    text-align: center;
+
+}
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lef
+{
+    width:50%;
+    flex: 0 0 auto;
+    padding-left: 2px;
+    
+
+}
+.righ
+{
+    width: 50%;
+    padding-right: 20px;
+    text-align: center;
+    flex: 0 0 auto;
+    
+}
+.narimg
+{
+    height: 500px;
+    
+    padding-left: 250px;
+}
+
+
+
+/* Repeat the same styling for other bars (4, 3, 2, 1) */
+/* ... */
+
